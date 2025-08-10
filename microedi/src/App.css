@@ -41,8 +41,38 @@
   color: #888;
 }
 */
+/* App.css (ou o seu arquivo CSS principal) */
+
+/* Importando a fonte Montserrat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #333;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1rem;
+  border: 1px solid red;
+}
+
+#conteudo{
+  max-width: 800px;
+}
 
 header {
   height: 100%;
   width: 100%;
+  align-items: center;
 }
+
+/*
+#container{
+  max-width: 100%; /*quem ta mandando é esse
+  max-height: 100%;
+  padding: 0;
+  border: 1px solid red;
+}
+*/

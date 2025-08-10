@@ -1,0 +1,35 @@
+ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    padding-top: 13%;
+}
+
+ul li{
+    margin: 0;
+}
+
+ul li a{
+    display: block; /*faz o link ocupar toda a área do li*/
+    padding: 10px 20px; /*espaçamento interno*/
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition: background-color 0.3s, color 0.3s; /*efeito de transição suave*/
+}
+
+ul li a:hover{
+    background-color: #224192;
+    color: white;
+}
+
+.Horizontal_menu{
+    display: flex;
+    float: right;
+    padding-right: 150px;
+    align-items: center;
+}
+
+#Logo_button_link{
+    display: flex;
+    padding: 0;
+}

@@ -10,6 +10,13 @@ function App() {
       <header>
         <Cabecalho />
       </header>
+      <div id='conteudo'>
+        <section>
+          <h1>
+          Informática e tecnologia,
+          tudo em um só lugar</h1>
+        </section>
+      </div>
     </>
   )
 }
