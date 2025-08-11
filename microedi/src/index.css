@@ -67,3 +67,13 @@ button:focus-visible {
   }
 }
 */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+:root {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 2;
+  font-weight: 400;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 1rem;
+}
