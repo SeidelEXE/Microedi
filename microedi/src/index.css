@@ -76,4 +76,5 @@ button:focus-visible {
   max-width: 1400px;
   margin: 0 auto;
   padding: 1rem;
+  background-color:rgb(255, 250, 250);
 }
