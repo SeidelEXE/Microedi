@@ -5,10 +5,10 @@ export default function HorizontalMenu(){
         <>
         <div className='Horizontal_menu'>
             <ul>
-                <li><a href="../index.html"><b>Home</b></a></li>
-                <li><a href="../index.html"><b>Serviços</b></a></li>
-                <li><a href="../index.html"><b>Quem Somos</b></a></li>
-                <li><a href="../index.html"><b>Sobre Nós</b></a></li>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../index.html">Serviços</a></li>
+                <li><a href="../index.html">Quem Somos</a></li>
+                <li><a href="../index.html">Sobre Nós</a></li>
             </ul>
         </div>    
         </>

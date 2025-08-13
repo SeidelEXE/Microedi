@@ -2,6 +2,10 @@ import './Conteudo.css'
 
 export default function Conteudo(){
     return(
+        /*um wrapper é como uma caixa organizadora, que serve para encapsular uma ou mais tags que formem um pedaço do
+        layout, facilitando assim sua manipulação e redimensionamento em alguns casos. Nesse caso debaixo em específico,
+        foi usado para conter o texto ao lado da imagem da mulher sorrindo, ambos estão juntos lado a lado, porém cada um
+        em uma direção*/
         <>
         <div className="conteudo-wrapper">
             <div className="conteudo">
