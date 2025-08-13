@@ -1,4 +1,5 @@
 import './Conteudo.css'
+import CardBotoes from './CardBotoes'
 
 export default function Conteudo(){
     return(
@@ -15,6 +16,9 @@ export default function Conteudo(){
                 A Microedi é o lugar certo para manutenções de notebooks e PCs, compras de computadores já montados, acessórios e gadgets. Honestidade, confiança e preço justo com o melhor atendimento da região!
             </div>
             <img className="mulher-sentada" src="/unnamed.png" alt="" />
+        </div>
+        <div className='cards-wrapper'>
+            <CardBotoes/>
         </div>
         </>
     )
