@@ -18,7 +18,6 @@ border: 0.125em solid #000000;
  height: 157px;
  width: 126.5px;
  outline: none;
- padding: 1em 2.3em;
  text-align: center;
  text-decoration: none;
  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
@@ -44,12 +43,18 @@ button:active {
  transform: translateY(0);
 }
 
+
+
 #marcado{
  color: #ffffff;
  background-color: #2c4997;
  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
  transform: translateY(-2px);
- 
+
+  /*  background-image: url(../assets/icons/2001.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 40%;*/
 }
 
 
