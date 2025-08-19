@@ -57,9 +57,12 @@ button:active {
     background-size: 40%;*/
 }
 
+.desde2001{
+    width: 80px;
+    position: sticky;
+    margin: 0 0 5px 0;
+}
 
-/*.container-cards{
-    display:flex;
-    flex-wrap: wrap;
-    gap: 7px;
-}*/
+.exepertise{
+    width: 10px;
+}
