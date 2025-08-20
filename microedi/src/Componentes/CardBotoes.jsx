@@ -14,7 +14,7 @@ export default function CardBotoes(){
                 Desde 2001
                 </button>
             <button id='expertise'>
-                <img className='expertise' src="../src/assets/icons/TempExpertise_1.svg" alt="" />
+              {/*  <img className='expertise' src="../src/assets/icons/TempExpertise_1.svg" alt="" /> */}
                 Expertise
                 </button> <br />  
             <button id='solucao'>

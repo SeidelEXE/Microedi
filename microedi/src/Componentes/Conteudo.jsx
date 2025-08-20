@@ -8,6 +8,7 @@ export default function Conteudo(){
         foi usado para conter o texto ao lado da imagem da mulher sorrindo, ambos estão juntos lado a lado, porém cada um
         em uma direção*/
         <>
+        {/*mulher sentada com notebook*/}
         <div className="conteudo-wrapper">
             <div className="conteudo">
                 <h1>
@@ -17,8 +18,24 @@ export default function Conteudo(){
             </div>
             <img className="mulher-sentada" src="/unnamed.png" alt="" />
         </div>
+        {/*cards com ícones inacabados*/}
         <div className='cards-wrapper'>
             <CardBotoes/>
+            <div className='informativo-botoes'>
+                <h1>Confiança e alta qualidade em manutenções</h1>
+                Temos mais de 24 anos de experiência na manutenção e reparos de notebooks e computadores para empresas e pessoas físicas. Somos reconhecidos pelo compromisso, qualidade no atendimento e transparência no diagnóstico.
+            </div>
+        </div>
+        {/*breve descritivo e homem fazendo joinha*/}
+        <div className='solucoes-rapidas-wrapper'>
+            <div className='solucoes-rapidas-content'>
+                <h1>Soluções rápidas e assertivas</h1>
+                Entendemos que o seu tempo é precioso e que precisa de um atendimento rápido com soluções certeiras de tecnologia.
+            </div>
+            <img className='homem-joinha' src="/homem-joinha-com-laptop.jpg" alt="" />
+            <div className='solucoes-items'>
+                asd
+            </div>
         </div>
         </>
     )

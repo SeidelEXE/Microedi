@@ -1,9 +1,10 @@
+/*formatação mágica que joga a imagem pro lado, ou texto também, como acontece com cards-wrapper*/
 .conteudo-wrapper{
     display: flex;
     align-items: center;
     justify-content: space-between;
     max-width:75%;
-    margin: 150px auto 100px auto;
+    margin: 130px auto 100px auto;
     gap: 1em;
     padding-left: 50px;
 }
@@ -20,8 +21,56 @@
     object-fit: cover;
 }
 
+/*cartoes*/
 .cards-wrapper{
     margin: 0 auto;
     max-width: 75%;
     padding-left: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1em;
+}
+
+.informativo-botoes{
+    flex: 1;
+    text-align: left;
+    height: 400px;
+    margin:0 auto 0 15px;
+    align-items: center;
+}
+
+.informativo-botoes h1{
+    padding-top: 70px;
+}
+
+
+/*soluções de serviço
+.solucoes-rapidas-wrapper{
+    margin: 0 auto;
+    max-width: 75%;
+    padding-left: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1em;
+}               aqui quebra td                     */
+
+.solucoes-rapidas-content{
+    margin: 130px auto 0 auto;
+    text-align: center;
+}
+
+.homem-joinha{
+    width: 430px;
+    height: auto;
+    object-fit: cover;
+    margin: 20px auto;
+    padding-left: 210px;
+}
+
+.solucoes-itens{
+    flex: 1;
+    text-align: left;
+    height: 400px;
 }
