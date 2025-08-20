@@ -26,15 +26,41 @@ export default function Conteudo(){
                 Temos mais de 24 anos de experiência na manutenção e reparos de notebooks e computadores para empresas e pessoas físicas. Somos reconhecidos pelo compromisso, qualidade no atendimento e transparência no diagnóstico.
             </div>
         </div>
+
         {/*breve descritivo e homem fazendo joinha*/}
-        <div className='solucoes-rapidas-wrapper'>
-            <div className='solucoes-rapidas-content'>
+            <div className='solucoes-rapidas'>
                 <h1>Soluções rápidas e assertivas</h1>
-                Entendemos que o seu tempo é precioso e que precisa de um atendimento rápido com soluções certeiras de tecnologia.
+                <p>Entendemos que o seu tempo é precioso e que precisa de um atendimento rápido,<br /> com soluções certeiras de tecnologia.</p>
             </div>
+
+        <div className='solucoes-rapidas-wrapper'>
             <img className='homem-joinha' src="/homem-joinha-com-laptop.jpg" alt="" />
             <div className='solucoes-items'>
-                asd
+                <h1>Manutenção de computadores</h1>
+                <section>Agilidade e qualidade na manutenção de notebooks e PCs. Formatação, upgrade, limpeza física, reparos, trocas de tela, etc.</section><br />
+
+                <h1>Instalação de programas</h1>
+                <section>Instalamos programas complementares, drivers de componentes, ou algum outro programa de seu interesse</section><br />
+
+                <h1>Acessórios e gadgets</h1>
+                <section>Temos diversas linhas de acessórios para completar o seu setup de trabalho e lazer, e gadgets para auxiliar no dia a dia.</section><br />
+
+                <h1>Computadores montados</h1>
+                <section>Temos máquinas já montadas para escritório, home e gamers. Converse com nossos especialistas para uma compra assertiva.</section><br />
+
+        
+            </div>
+        </div>
+
+        {/*propostas*/}
+            <div className='proposta'>
+                <h1>Por que nos <b>escolher ?</b></h1>
+                <p>Somos especializados em tecnologia e informática com anos de conhecimento e expertise no mercado. Nosso atendimento possui um ótimo custo-benefício.</p>
+            </div>
+
+        <div className='propostas-wrapper'>
+            <div>
+
             </div>
         </div>
         </>
