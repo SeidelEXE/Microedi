@@ -50,7 +50,11 @@ h1{
 }
 
 
-/*soluções de serviço*/
+/*breve descritivo e homem fazendo joinha*/
+
+
+
+
 
 .solucoes-rapidas{
     text-align: center;
@@ -80,3 +84,16 @@ h1{
     text-align: left;
     height: 400px;
 }
+
+.check-icon{
+    width: 30px;
+}
+
+.manutencao-de-computadores,
+.instalacao-de-programas,
+.acessorios-e-gadgets,
+.computadores-montados{
+    flex: 1;
+    float: right;
+}
+

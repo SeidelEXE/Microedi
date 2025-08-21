@@ -36,18 +36,31 @@ export default function Conteudo(){
         <div className='solucoes-rapidas-wrapper'>
             <img className='homem-joinha' src="/homem-joinha-com-laptop.jpg" alt="" />
             <div className='solucoes-items'>
-                <h1>Manutenção de computadores</h1>
-                <section>Agilidade e qualidade na manutenção de notebooks e PCs. Formatação, upgrade, limpeza física, reparos, trocas de tela, etc.</section><br />
 
-                <h1>Instalação de programas</h1>
-                <section>Instalamos programas complementares, drivers de componentes, ou algum outro programa de seu interesse</section><br />
+                <div className='manutencao-de-computadores'>
+                <img className='check-icon' src="../src/assets/icons/sinal-de-visto.svg" alt="" />
+                    <h1>Manutenção de computadores</h1>
+                    <section>Agilidade e qualidade na manutenção de notebooks e PCs. Formatação, upgrade, limpeza física, reparos, trocas de tela, etc.</section><br />
+                </div>
 
-                <h1>Acessórios e gadgets</h1>
-                <section>Temos diversas linhas de acessórios para completar o seu setup de trabalho e lazer, e gadgets para auxiliar no dia a dia.</section><br />
+                <div className='instalacao-de-programas'>
+                <img className='check-icon' src="../src/assets/icons/sinal-de-visto.svg" alt="" />
+                    <h1>Instalação de programas</h1>
+                    <section>Instalamos programas complementares, drivers de componentes, ou algum outro programa de seu interesse</section><br />
+                </div>
 
-                <h1>Computadores montados</h1>
-                <section>Temos máquinas já montadas para escritório, home e gamers. Converse com nossos especialistas para uma compra assertiva.</section><br />
+                <div className='acessorios-e-gadgets'>
+                <img className='check-icon' src="../src/assets/icons/sinal-de-visto.svg" alt="" />
+                    <h1>Acessórios e gadgets</h1>
+                    <section>Temos diversas linhas de acessórios para completar o seu setup de trabalho e lazer, e gadgets para auxiliar no dia a dia.</section><br />
+                </div>
 
+
+                <div className='computadores-montados'>
+                <img className='check-icon' src="../src/assets/icons/sinal-de-visto.svg" alt="" />
+                    <h1>Computadores montados</h1>
+                    <section>Temos máquinas já montadas para escritório, home e gamers. Converse com nossos especialistas para uma compra assertiva.</section><br />
+                </div>
         
             </div>
         </div>
@@ -60,7 +73,7 @@ export default function Conteudo(){
 
         <div className='propostas-wrapper'>
             <div>
-
+                
             </div>
         </div>
         </>
