@@ -3,6 +3,14 @@ h1{
     padding: 0;
 }
 
+.titulo{
+    font-size: 35px;
+    margin: 0;
+    padding: 0;
+    line-height: 1.2;
+    padding-bottom: 10px;
+}
+
 /*formatação mágica que joga a imagem pro lado, ou texto também, como acontece com cards-wrapper*/
 .conteudo-wrapper{
     display: flex;
@@ -25,6 +33,7 @@ h1{
     height: auto;
     object-fit: cover;
 }
+
 
 /*cartoes*/
 .cards-wrapper{
@@ -50,12 +59,8 @@ h1{
 }
 
 
+
 /*breve descritivo e homem fazendo joinha*/
-
-
-
-
-
 .solucoes-rapidas{
     text-align: center;
     margin: 150px auto 0 auto;
@@ -85,10 +90,6 @@ h1{
     height: 400px;
 }
 
-.check-icon{
-    width: 30px;
-}
-
 .manutencao-de-computadores,
 .instalacao-de-programas,
 .acessorios-e-gadgets,
@@ -97,3 +98,107 @@ h1{
     float: right;
 }
 
+.solucao-item {
+    display: flex;
+    align-items: flex-start;   /* ícone e título no topo */
+    gap: 10px;                 /* separação entre itens */
+}
+
+
+.check-icon {
+    width: 28px;
+    height: 28px;
+    flex-shrink: 0;              /* Evita o ícone encolher */
+    margin-top: 15px;
+}
+
+
+/*propostas*/
+.proposta{
+    margin: 0 auto;
+    padding: 200px 0 20px 0;
+    text-align: center;
+}
+
+
+.cards-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 75%;
+    margin:0 auto;
+    gap: 2em;
+    padding-right: 10px;
+}
+
+.card {
+    width: 290px;
+    height: 250px;
+    flex: 1;
+    background: #fff;
+    border: 1px solid transparent;   /* borda invisível padrão */
+    border-radius: 12px;
+    padding: 10px;
+    text-align: left;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    transition: all 0.3s ease;       /* suaviza animação */
+    cursor: pointer;
+}
+
+.card-ativo{
+    width: 290px;
+    height: 250px;
+    flex: 1;
+    background: #2c4997;
+    color: #fff;
+    border: 1px solid transparent;   /* borda invisível padrão */
+    border-radius: 12px;
+    padding: 10px;
+    text-align: left;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    transition: all 0.3s ease;       /* suaviza animação */
+    cursor: pointer;
+}
+
+.card:hover {
+    border-color: #ddd;              /* borda cinza no hover */
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1); /* efeito extra */
+}
+
+.card-icon {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 15px;
+}
+
+/*entre em contato*/
+.contato-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 75%;
+    margin: 150px auto;
+    gap: 2em;
+}
+
+.diagnostico-sem-compromisso{
+    flex: 1;
+    text-align: center;
+}
+
+.entre-em-contato{
+    flex: 1;
+    text-align: center;
+}
+
+.entre-em-contato-button{
+    flex: 1;
+    text-align: left;
+    position: start;
+    width: 180px;
+    height: 40px;
+}
+
+.whatsapp-image{
+    width: 30px;
+}

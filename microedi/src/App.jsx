@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import Cabecalho from './Componentes/Cabecalho'
 import Conteudo from './Componentes/Conteudo'
+import Rodape from './Componentes/Rodape'
 
 
 function App() {
@@ -15,6 +16,9 @@ function App() {
       <section>
         <Conteudo />
       </section>
+      <footer>
+        <Rodape />
+      </footer>
     </>
   )
 }
