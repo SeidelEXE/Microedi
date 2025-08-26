@@ -1,5 +1,7 @@
 import './Conteudo.css'
 import CardBotoes from './CardBotoes'
+import { WhatsappIcon, CalculadoraIcon, EconomizarIcon, EquipeIcon, CheckIcon } from '../assets/icons/Icons?react'
+
 
 export default function Conteudo(){
     return(
@@ -18,8 +20,8 @@ export default function Conteudo(){
             </div>
             <img className="mulher-sentada" src="/unnamed.png" alt="" />
         </div>
-        {/*cards com ícones inacabados*/}
-        <div className='cards-wrapper'>
+        
+        <div className='cards-wrapper-icones'>
             <CardBotoes/>
             <div className='informativo-botoes'>
                 <h1 className='titulo'>Confiança e alta qualidade em manutenções</h1>
@@ -38,7 +40,7 @@ export default function Conteudo(){
             <div className='solucoes-items'>
 
                 <div className='solucao-item'>
-                    <img className='check-icon' src="../src/assets/icons/sinal-de-visto.svg" alt="" />
+                    <CheckIcon className='check-icon'/>
                     <div className='manutencao-de-computadores'>
                         <h1>Manutenção de computadores</h1>
                         <section>Agilidade e qualidade na manutenção de notebooks e PCs. Formatação, upgrade, limpeza física, reparos, trocas de tela, etc.</section><br />
@@ -46,7 +48,7 @@ export default function Conteudo(){
                 </div>
 
                 <div className='solucao-item'>
-                    <img className='check-icon' src="../src/assets/icons/sinal-de-visto.svg" alt="" />
+                    <CheckIcon className='check-icon'/>
                     <div className='instalacao-de-programas'>
                         <h1>Instalação de programas</h1>
                         <section>Instalamos programas complementares, drivers de componentes, ou algum outro programa de seu interesse</section><br />
@@ -54,7 +56,7 @@ export default function Conteudo(){
                 </div>
 
                 <div className='solucao-item'>
-                    <img className='check-icon' src="../src/assets/icons/sinal-de-visto.svg" alt="" />
+                    <CheckIcon className='check-icon'/>
                     <div className='acessorios-e-gadgets'>
                         <h1>Acessórios e gadgets</h1>
                         <section>Temos diversas linhas de acessórios para completar o seu setup de trabalho e lazer, e gadgets para auxiliar no dia a dia.</section><br />
@@ -62,7 +64,7 @@ export default function Conteudo(){
                 </div>
 
                 <div className='solucao-item'>
-                    <img className='check-icon' src="../src/assets/icons/sinal-de-visto.svg" alt="" />
+                    <CheckIcon className='check-icon'/>
                     <div className='computadores-montados'>
                         <h1>Computadores montados</h1>
                         <section>Temos máquinas já montadas para escritório, home e gamers. Converse com nossos especialistas para uma compra assertiva.</section><br />
@@ -82,19 +84,19 @@ export default function Conteudo(){
 
             <div className='cards-wrapper'>
                 <div className='card'>
-                    <img src="../src/assets/icons/calculadora.svg" alt="ícone" className='card-icon' />
+                    <CalculadoraIcon className='card-icon' />
                     <h1>Orçamentos</h1>
                     <p>Fazemos um diagnóstico completo, solicite sem compromisso.</p>
                 </div>
 
                 <div className='card-ativo'>
-                    <img src="../src/assets/icons/economizar.svg" alt="ícone" className='card-icon' />
+                    <EconomizarIcon className='card-icon' />
                     <h1>Pagamentos</h1>
                     <p>Parcelamos em até 3x no cartão. Consulte condições.</p>
                 </div>
 
                 <div className='card'>
-                    <img src="../src/assets/icons/equipe.svg" alt="ícone" className='card-icon' />
+                    <EquipeIcon className='card-icon' />
                     <h1>Corporativo</h1>
                     <p>Visitamos sua empresa para entender a demanda e propor soluções.</p>
                 </div>
@@ -108,11 +110,14 @@ export default function Conteudo(){
                     </p>
                 </div>
                 <div className='entre-em-contato'>
-                    <button className='entre-em-contato-button'>
-                        <a href="https://wa.me/5517997078504?text=Ol%C3%A1%20quero%20fazer%20um%20or%C3%A7amento">
+                    <button 
+                        className='entre-em-contato-button'
+                        onClick={()=> window.open("https://wa.me/5517997078504?text=Ol%C3%A1%20quero%20fazer%20um%20or%C3%A7amento", "_blank")}>
+                            
                         entre em contato 
-                        <img src="../src/assets/icons/whatsapp.svg" alt="" className='whatsapp-image'/></a>
-                        </button>
+                        <WhatsappIcon className='whatsapp-icon'/>
+                    </button>
+                        
                 </div>
             </div>
         </>

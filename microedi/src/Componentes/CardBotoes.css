@@ -1,68 +1,67 @@
-/* From Uiverse.io by e-coders */ 
-button {
- appearance: none;
- background-color: transparent;
-border: 0.125em solid #000000;
- border-radius: 0.9375em;
- border: none;
- box-sizing: border-box;
- color: #000000;
- cursor: pointer;
- display: inline-block;
- font-size: 16px;
- font-weight: 600;
- line-height: normal;
- margin: 3px;
- min-height: 3.75em;
- min-width: 0;
- height: 157px;
- width: 126.5px;
- outline: none;
- text-align: center;
- text-decoration: none;
- transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
- user-select: none;
- -webkit-user-select: none;
- touch-action: manipulation;
- will-change: transform;
+.cards-qualidade-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 colunas */
+    align-items: center;
+    justify-content: space-between;
+    max-width: 75%;
+    margin:0 auto;
+    gap: 1em;
 }
 
-button:disabled {
- pointer-events: none;
+.card-qualidade {
+    width: 130px;
+    height: 150px;
+    background: #fff;
+    border: 1px solid transparent;   /* borda invisível padrão */
+    border-radius: 12px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    transition: all 0.3s ease;       /* suaviza animação */
+    cursor: pointer;
+
+        /* alinhamento vertical */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-button:hover {
- color: #ffffff;
- background-color: #2c4997;
- box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
- transform: translateY(-2px);
+.card-qualidade-ativo{
+    width: 130px;
+    height: 150px;
+    flex: 1;
+    font-size: 1rem;
+    line-height: 1.2;
+    background: #2c4997;
+    color: #fff;
+    border: 1px solid transparent;   /* borda invisível padrão */
+    border-radius: 12px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    transition: all 0.3s ease;       /* suaviza animação */
+    cursor: pointer;
+
+        /* alinhamento vertical */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-button:active {
- box-shadow: none;
- transform: translateY(0);
+.card-qualidade:hover {
+    border-color: #ddd;              /* borda cinza no hover */
+    background-color: #5f677c;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1); /* efeito extra */
 }
 
-
-
-#marcado{
- color: #ffffff;
- background-color: #2c4997;
- box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
- transform: translateY(-2px);
-
-  /*  background-image: url(../assets/icons/2001.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 40%;*/
+.tituloS{
+    font-size: 1rem;
 }
 
-.desde2001{
-    width: 80px;
+.card-qualidade-icons{
+    width: 50px;
     position: sticky;
-    margin: 0 0 5px 0;
 }
 
-.exepertise{
-    width: 10px;
-}

@@ -1,7 +1,76 @@
-.logo{
-    margin-left: 74px;
+.rodape-wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 colunas */
+    gap: 2em;
+    padding: 40px 60px;
+    color: black    ;
+    margin-top: 150px;
 }
 
-.rodape-wrapper{
-    margin-top: 150px;
+.rodape-col h3 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.rodape-col p, 
+.rodape-col a {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: black;
+    text-decoration: none;
+}
+
+.rodape-col a:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    width: 200px;
+}
+
+.descricao {
+    max-width: 250px;
+    font-size: 0.95rem;
+    line-height: 1.4;
+}
+
+.rodape-col ul {
+    list-style: none;
+    padding: 0;
+}
+
+.rodape-col ul li {
+    margin-bottom: 8px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 12px;
+}
+
+.social-icons a {
+    font-size: 1.5rem;
+    background: black;
+    color: #2c4997;
+    padding: 6px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+.social-icons a:hover {
+    background: #2c4997;
+    color: black;
+    border: 1px solid black;
+}
+
+.insta-button{
+    width: 180px;
+    height: 40px;
+    align-items: center;
+}
+
+.insta-icon{
+    width: 25px;
+    height: 25px;
 }
