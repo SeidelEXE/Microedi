@@ -3,6 +3,7 @@ import './App.css'
 import Cabecalho from './Componentes/Cabecalho'
 import Conteudo from './Componentes/Conteudo'
 import Rodape from './Componentes/Rodape'
+//import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
 
 
 function App() {
