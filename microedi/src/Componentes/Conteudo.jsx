@@ -36,7 +36,7 @@ export default function Conteudo(){
             </div>
 
         <div className='solucoes-rapidas-wrapper'>
-            <img className='homem-joinha' src="/homem-joinha-com-laptop.jpg" alt="" />
+            <img className='homem-joinha' src="/homem-joinha.png" alt="" />
             <div className='solucoes-items'>
 
                 <div className='solucao-item'>
