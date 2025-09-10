@@ -1,14 +1,15 @@
-import './HorizontalMenu.css' 
+import { Link } from 'react-router-dom';
+import '../Estilos/HorizontalMenu.css' 
 
 export default function HorizontalMenu(){
     return (
         <>
         <div className='Horizontal_menu'>
             <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="../index.html">Serviços</a></li>
-                <li><a href="../index.html">Quem Somos</a></li>
-                <li><a href="../index.html">Sobre Nós</a></li>
+                <li><Link to='/' >Home</Link></li>
+                <li><Link to='/servicos' >Serviços</Link></li>
+                <li><Link to='/quemsomos' >Quem Somos</Link></li>
+                <li><Link to='/sobrenos' >Sobre Nós</Link></li>
             </ul>
         </div>    
         </>

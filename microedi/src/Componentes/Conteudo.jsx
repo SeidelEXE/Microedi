@@ -1,4 +1,4 @@
-import './Conteudo.css'
+import '../Estilos/Conteudo.css'
 import CardBotoes from './CardBotoes'
 import { WhatsappIcon, CalculadoraIcon, EconomizarIcon, EquipeIcon, CheckIcon } from '../assets/icons/Icons?react'
 

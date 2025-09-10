@@ -1,11 +1,11 @@
-import '../Estilos/CardBotoes.css'
+import '../Estilos/Servicos.css';
 import { SinceIcon, TransparenciaIcon, ExpertiseIcon, SolucoesIcon, ShieldIcon, PrecoBaixoIcon } from '../assets/icons/Icons?react'
 
-export default function CardBotoes() {
-    return (
-        <>
+export default function Servicos(){
+    return(<>
 
-            <div className='cards-qualidade-wrapper'>
+        <div className='cards-serviços-wrapper'>
+            <div>
                 <div className='card-qualidade'>
                     <TransparenciaIcon className='card-qualidade-icons'/>
                     <h1 className='tituloS'>Trasnparência</h1>
@@ -36,6 +36,7 @@ export default function CardBotoes() {
                     <h1 className='tituloS'>Preço Justo</h1>
                 </div>
             </div>
-        </>
-    )
+        </div>
+
+    </>)
 }

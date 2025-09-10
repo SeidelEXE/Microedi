@@ -1,4 +1,4 @@
-import './Rodape.css'
+import '../Estilos/Rodape.css'
 import { InstagramIcon } from '../assets/icons/Icons?react'
 
 export default function Rodape() {

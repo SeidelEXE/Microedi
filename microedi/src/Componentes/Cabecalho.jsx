@@ -1,5 +1,5 @@
 import HorizontalMenu from './HorizontalMenu'
-import './Cabecalho.css'
+import '../Estilos/Cabecalho.css'
 
 export default function Cabecalho() {
     return(
