@@ -20,7 +20,9 @@ export default function Conteudo(){
             </div>
             <img className="mulher-sentada" src="/unnamed.png" alt="" />
         </div>
-        
+
+
+        {/* cards ícones */}
         <div className='cards-wrapper-icones'>
             <CardBotoes/>
             <div className='informativo-botoes'>
@@ -77,7 +79,7 @@ export default function Conteudo(){
         {/*propostas*/}
             <div className='proposta'>
                 <h1 className='titulo'>Por que nos <b>escolher ?</b></h1>
-                <p>Somos especializados em tecnologia e informática <br />
+                <p>Somos especializados em tecnologia e informática 
                     com anos de conhecimento e expertise no mercado. <br />
                     Nosso atendimento possui um ótimo custo-benefício.</p>
             </div>

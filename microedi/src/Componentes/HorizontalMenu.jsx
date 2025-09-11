@@ -9,7 +9,7 @@ export default function HorizontalMenu(){
                 <li><Link to='/' >Home</Link></li>
                 <li><Link to='/servicos' >Serviços</Link></li>
                 <li><Link to='/quemsomos' >Quem Somos</Link></li>
-                <li><Link to='/sobrenos' >Sobre Nós</Link></li>
+                <li><Link to='/contato' >Contato</Link></li>
             </ul>
         </div>    
         </>
