@@ -1,39 +1,16 @@
 import '../Estilos/Servicos.css';
+import CardBotoes from '../Componentes/CardBotoes'
 import { SinceIcon, TransparenciaIcon, ExpertiseIcon, SolucoesIcon, ShieldIcon, PrecoBaixoIcon } from '../assets/icons/Icons?react'
 
-export default function Servicos(){
-    return(<>
+export default function Servicos() {
+    return (<>
 
-        <div className='cards-serviços-wrapper'>
-            <div>
-                <div className='card-qualidade'>
-                    <TransparenciaIcon className='card-qualidade-icons'/>
-                    <h1 className='tituloS'>Trasnparência</h1>
-                </div>
-
-                <div className='card-qualidade-ativo'>
-                    <SinceIcon className='card-qualidade-icons'/>
-                    <h1>Desde <br /> 2001</h1>
-                </div>
-
-                <div className='card-qualidade'>
-                    <ExpertiseIcon className='card-qualidade-icons'/>
-                    <h1 className='tituloS'>Expertise</h1>
-                </div>
-                
-                <div className='card-qualidade'>
-                    <SolucoesIcon className='card-qualidade-icons'/>
-                    <h1 className='tituloS'>Soluções</h1>
-                </div>
-
-                <div className='card-qualidade'>
-                    <ShieldIcon className='card-qualidade-icons'/>
-                    <h1 className='tituloS'>Segurança</h1>
-                </div>
-
-                <div className='card-qualidade'>
-                    <PrecoBaixoIcon className='card-qualidade-icons'/>
-                    <h1 className='tituloS'>Preço Justo</h1>
+        <div className='cards-servicos'>
+            <div className='cards-wrapper-icones'>
+                <CardBotoes />
+                <div className='informativo-botoes'>
+                    <h1 className='titulo'>Assistência técnica e vendas de alta qualidade</h1>
+                    Nossa equipe possui técnicos qualificados para atender pessoas físicas e jurídicas, com todo suporte em infraestrutura que você precisa. Também trabalhamos com as melhores marcas de tecnologia para atender sua demanda.
                 </div>
             </div>
         </div>

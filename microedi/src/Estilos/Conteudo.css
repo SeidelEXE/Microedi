@@ -66,6 +66,11 @@ h1{
     margin: 0 auto 0 auto;
 }
 
+.solucoes-items h1{
+    font-size: 23px;
+    font-weight: bold;
+}
+
 
 .solucoes-rapidas-wrapper{
     display: flex;
