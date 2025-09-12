@@ -4,6 +4,10 @@ import { WhatsappIcon, CalculadoraIcon, EconomizarIcon, EquipeIcon, CheckIcon } 
 
 
 export default function Conteudo(){
+
+    const anoAtual = new Date().getFullYear(); //pega o ano atual
+    const anosDeHistoria = anoAtual - 2001 ;
+
     return(
         /*um wrapper é como uma caixa organizadora, que serve para encapsular uma ou mais tags que formem um pedaço do
         layout, facilitando assim sua manipulação e redimensionamento em alguns casos. Nesse caso debaixo em específico,
@@ -27,7 +31,7 @@ export default function Conteudo(){
             <CardBotoes/>
             <div className='informativo-botoes'>
                 <h1 className='titulo'>Confiança e alta qualidade em manutenções</h1>
-                Temos mais de 24 anos de experiência na manutenção e reparos de notebooks e computadores para empresas e pessoas físicas. Somos reconhecidos pelo compromisso, qualidade no atendimento e transparência no diagnóstico.
+                Temos mais de {anosDeHistoria} anos de experiência na manutenção e reparos de notebooks e computadores para empresas e pessoas físicas. Somos reconhecidos pelo compromisso, qualidade no atendimento e transparência no diagnóstico.
             </div>
         </div>
 
