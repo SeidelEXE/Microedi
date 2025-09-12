@@ -1,6 +1,5 @@
 import '../Estilos/Servicos.css';
 import CardBotoes from '../Componentes/CardBotoes'
-import { SinceIcon, TransparenciaIcon, ExpertiseIcon, SolucoesIcon, ShieldIcon, PrecoBaixoIcon } from '../assets/icons/Icons?react'
 import { WhatsappIcon, CalculadoraIcon, EconomizarIcon, EquipeIcon, CheckIcon } from '../assets/icons/Icons?react'
 
 export default function Servicos() {
