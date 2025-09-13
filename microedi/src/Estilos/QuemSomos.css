@@ -1,0 +1,137 @@
+.proposta-quemsomos{
+    margin: 320px auto 20px auto;
+    text-align: center;
+}
+
+.card-quemsomos {
+    width: 290px;
+    height: 300px;
+    flex: 1;
+    background: #fff;
+    border: 1px solid transparent;   /* borda invisível padrão */
+    border-radius: 12px;
+    padding: 10px;
+    text-align: left;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    transition: all 0.3s ease;       /* suaviza animação */
+    cursor: pointer;
+}
+
+.card-ativo-quemsomos{
+    width: 290px;
+    height: 300px;
+    flex: 1;
+    background: #2c4997;
+    color: #fff;
+    border: 1px solid transparent;   /* borda invisível padrão */
+    border-radius: 12px;
+    padding: 10px;
+    text-align: left;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    transition: all 0.3s ease;       /* suaviza animação */
+    cursor: pointer;
+}
+
+/*breve descritivo e homem fazendo joinha*/
+.solucoes-rapidas{
+    text-align: center;
+    margin: 300px auto 0 auto;
+}
+
+.solucoes-items h1{
+    font-size: 23px;
+    font-weight: bold;
+}
+
+
+.solucoes-rapidas-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 75%;
+    gap: 2em;
+}
+
+.homem-joinha{
+    width: 430px;
+    height: auto;
+    object-fit: cover;
+    margin: 0 auto;
+    mask-image: linear-gradient(to bottom, black 80%, transparent 100%);
+}
+
+.solucoes-itens{
+    flex: 1;
+    text-align: left;
+    height: 400px;
+}
+
+.manutencao-de-computadores,
+.instalacao-de-programas,
+.acessorios-e-gadgets,
+.computadores-montados{
+    flex: 1;
+    float: right;
+}
+
+.solucao-item {
+    display: flex;
+    align-items: flex-start;   /* ícone e título no topo */
+    gap: 10px;                 /* separação entre itens */
+}
+
+
+.check-icon {
+    width: 28px;
+    height: 28px;
+    flex-shrink: 0;              /* Evita o ícone encolher */
+    margin-top: 15px;
+}
+
+/* seção de contato */
+
+.contato-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 75%;
+    margin: 300px auto 300px auto;
+    gap: 2em;
+}
+
+.diagnostico-sem-compromisso{
+    flex: 1;
+    text-align: center;
+    margin: 0 auto 0 30px;
+}
+
+.entre-em-contato{
+    flex: 1;
+    text-align: center;
+}
+
+.entre-em-contato-button{
+    display: inline-flex;
+    align-items: center; /* alinha verticalmente */
+    justify-content: center; /* centraliza horizontalmente */
+    flex: 1;
+    text-align: left;
+    width: 180px;
+    height: 40px;
+    color: black;
+    gap: 7px;
+}
+
+.entre-em-contato-button:hover {
+    color: #ffffff;
+    background-color: #2c4997;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);    
+}
+
+
+.whatsapp-icon {
+  width: 25px;
+  height: 25px;
+}
+
