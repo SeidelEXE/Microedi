@@ -44,6 +44,16 @@
 
 .rodape-col ul li {
     margin-bottom: 8px;
+    text-decoration: none;
+}
+
+/* links do rodapé sem sublinhado em qualquer estado */
+.rodape-wrapper a,
+.rodape-wrapper a:visited,
+.rodape-wrapper a:hover,
+.rodape-wrapper a:active,
+.rodape-wrapper a:focus {
+  text-decoration: none;
 }
 
 .social-icons {

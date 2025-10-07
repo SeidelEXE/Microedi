@@ -181,7 +181,7 @@ h1{
 button {
  appearance: none;
  background-color: transparent;
-border: 0.125em solid #000000;
+border: 0.125em solid #000000; 
  border-radius: 0.9375em;
  border: none;
  box-sizing: border-box;
