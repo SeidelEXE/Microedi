@@ -11,3 +11,17 @@
 .logo-area{
     padding-left: 50px;
 }
+
+@media (max-width: 900px) {
+  #link_logo{
+      margin-left: 0;
+  }
+
+  #link_logo img {
+    max-height: 160px;
+  }
+
+  .logo-area{
+      padding-left: 16px;
+  }
+}

@@ -62,6 +62,13 @@ a{
   color: black;
 }
 
+@media (max-width: 900px) {
+  header {
+    height: auto;
+    padding: 12px 0;
+  }
+}
+
 /*
 #container{
   max-width: 100%; /*quem ta mandando é esse

@@ -86,3 +86,21 @@
     width: 25px;
     height: 25px;
 }
+
+@media (max-width: 900px) {
+    .rodape-wrapper {
+        grid-template-columns: 1fr;
+        padding: 40px 20px;
+        margin-top: 120px;
+    }
+
+    .logo{
+        width: 220px;
+        display: block;
+        margin: 0 auto 12px auto;
+    }
+
+    .rodape-col {
+        text-align: left;
+    }
+}

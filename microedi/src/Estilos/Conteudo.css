@@ -268,3 +268,105 @@ button:active {
   height: 25px;
 }
 
+@media (max-width: 900px) {
+    .conteudo-wrapper{
+        flex-direction: column-reverse;
+        max-width: 100%;
+        margin: 120px auto 120px auto;
+        padding-left: 0;
+        text-align: left;
+    }
+
+    .conteudo{
+        height: auto;
+    }
+
+    .mulher-sentada{
+        width: 80%;
+        max-width: 320px;
+        margin: 0 auto;
+    }
+
+    .cards-wrapper-icones{
+        flex-direction: column;
+        max-width: 100%;
+        padding-left: 0;
+        margin: 0 auto 120px auto;
+    }
+
+    .informativo-botoes{
+        height: auto;
+        margin: 0;
+        text-align: left;
+    }
+
+    .informativo-botoes h1{
+        padding-top: 0;
+    }
+
+    .solucoes-rapidas{
+        margin: 140px auto 0 auto;
+    }
+
+    .solucoes-rapidas-wrapper{
+        flex-direction: column;
+        max-width: 100%;
+        margin: 20px auto 140px auto;
+        gap: 1.5em;
+    }
+
+    .homem-joinha{
+        width: 80%;
+        max-width: 320px;
+    }
+
+    .solucao-item{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .check-icon{
+        margin-top: 0;
+    }
+
+    .cards-wrapper{
+        flex-direction: column;
+        max-width: 100%;
+        padding-right: 0;
+    }
+
+    .card,
+    .card-ativo{
+        width: auto;
+        height: auto;
+    }
+
+    .contato-wrapper{
+        flex-direction: column;
+        max-width: 100%;
+        margin: 160px auto 160px auto;
+    }
+
+    .diagnostico-sem-compromisso{
+        margin: 0;
+    }
+}
+
+@media (max-width: 520px) {
+    .titulo{
+        font-size: 28px;
+    }
+
+    .conteudo-wrapper{
+        margin: 100px auto 100px auto;
+    }
+
+    .cards-wrapper-icones{
+        margin: 0 auto 100px auto;
+    }
+
+    .contato-wrapper{
+        margin: 120px auto 120px auto;
+    }
+}
+
