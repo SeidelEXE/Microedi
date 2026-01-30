@@ -8,7 +8,7 @@ export default function CardBotoes() {
             <div className='cards-qualidade-wrapper'>
                 <div className='card-qualidade'>
                     <TransparenciaIcon className='card-qualidade-icons'/>
-                    <h1 className='tituloS'>Trasnparência</h1>
+                    <h1 className='tituloS'>Transparência</h1>
                 </div>
 
                 <div className='card-qualidade-ativo'>
