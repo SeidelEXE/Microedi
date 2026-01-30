@@ -1,5 +1,6 @@
 import HorizontalMenu from './HorizontalMenu'
 import '../Estilos/Cabecalho.css'
+import { Link } from 'react-router-dom'
 
 export default function Cabecalho() {
     return(
