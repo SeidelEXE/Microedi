@@ -84,9 +84,9 @@ export default function QuemSomos() {
         {/*contato*/}
         <div className='contato-wrapper'>
             <div>
-                <p className='diagnostico-sem-compromisso'>
+                <section className='diagnostico-sem-compromisso'>
                     <h1 className='titulo'>Solicite o diagnóstico e <br />orçamento sem compromisso <br /> do seu computador.</h1>
-                </p>
+                </section>
             </div>
             <div className='entre-em-contato'>
                 <button

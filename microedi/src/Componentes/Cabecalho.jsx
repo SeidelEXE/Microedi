@@ -7,7 +7,7 @@ export default function Cabecalho() {
         <>
             
                 <div className='logo-area'>
-                    <a><Link to={'/'}><img src="/Logo-da-MICROEDI-INFORMÁTICA.ico" alt="" /></Link></a>
+                    <Link to={'/'}><img src="/Logo-da-MICROEDI-INFORMÁTICA.ico" alt="" /></Link>
                 </div>
                 <HorizontalMenu />
         </>
